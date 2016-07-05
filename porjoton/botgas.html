@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>শতায়ূবর্ষী বটগাছ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="ens-aji-a" data-role="page" data-theme="j">
+		<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>বৈচিত্র্যময় খাগড়াছড়ি</p>
+    </header>
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+		<p>শতায়ূবর্ষী বটগাছ</p>
+				</div><br>
+				<div class="ui-body ui-body-a">
+
+				<p class="texto" style=text-align:justify;>মাটিরাঙ্গা উপজেলার খেদাছড়ার কাছাকাছি এলাকায় এ প্রাচীন বটবৃক্ষটির অবস্থান। শুধু ইতিহাসের সাক্ষী নয় এ যেন দর্শনীয় আশ্চর্য্যরে কোন উপাদান। <br><br>
+				পাঁচ একরের অধিক জমির উপরে এ গাছটি হাজারো পর্যটকদের কাছে দারুণ আকর্ষণীয়। মূল বটগাছটি থেকে নেমে আসা প্রতিটি ঝুড়িমূল কালের পরিক্রমায় এক একটি নতুন বটবৃক্ষে পরিণত হয়েছে। <br><br>
+				আশ্চর্য্যরে বিষয় ঝুড়িমূল থেকে সৃষ্ট প্রতিটি বটগাছ তার মূল গাছের সাথে সন্তানের মতো জড়িয়ে আছে। কথিত আছে এ বটবৃক্ষের নীচে বসে শীতল বাতাস গায়ে লাগালে মানুষও শতবর্ষী হয়।
+
+</p>
+				
+		
+		
+		
+		</div></div></div>
+		
+		<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section>
+</body>
+</html>

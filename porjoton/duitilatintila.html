@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>দুই টিলা ও তিন টিলা</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.01, user-scalable=0, minimum-scale=1.01, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="ens-aji-a" data-role="page" data-theme="j">
+		<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>বৈচিত্র্যময় খাগড়াছড়ি</p>
+    </header>
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+		<p>দুই টিলা ও তিন টিলা</p>
+				</div><br>
+				<div class="ui-body ui-body-a">
+	
+				<p class="texto" style=text-align:justify;>প্রকৃতির এক অপূর্ব বিস্ময় এই দুই টিলা ও তিন টিলা।<br><br>
+				জেলা সদর থেকে মাত্র ৪২কিঃ মিঃ দূরে খাগড়াছড়ি-দীঘিনালা-মারিশ্যার কোল ঘেঁষে এ টিলায় দাঁড়ালে ভূগোলে বিধৃত গোলাকৃতি পৃথিবীর এক চমৎকার নমুনা উপভোগ করা যায়।<br><br>
+				পাহাড় চূড়ায় দাঁড়িয়ে যে দিকে চোখ যায় মনে হয় যেন পৃথিবীর সমস্ত সবুজের সমারোহ এখানেই সমষ্টি বেঁধেছে। দুই টিলার অচেনা দৃশ্য যেন ক্যানভাসের উপর কোন চিত্রশিল্পীর তুলির আঁচড়।
+</p>
+				
+		</div></div></div>
+		
+		
+		<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section>
+</body>
+</html>

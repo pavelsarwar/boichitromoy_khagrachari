@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>জরুরি সেবা</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="page" data-role="page" data-theme="o">
+		<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>জরুরি সেবা</p>
+    </header>
+		
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="সার্চ করুন">
+				<li>
+					<a rel="external" data-ajax="false"  href="../help/law.html" data-transition="flip">আইন-শৃঙ্খলা</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../help/helth.html" data-transition="flip">স্বাস্থ্য সেবা</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../help/bank.html" data-transition="flip">ব্যাংকসমূহ</a>
+				</li>
+				
+				<li>
+					<a rel="external" data-ajax="false"  href="../help/transport.html" data-transition="flip">যোগাযোগ</a>
+				</li>
+			</ul>
+		</article><!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>পর্যটন মোটেল খাগড়াছড়ি</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="ens-aji-a" data-role="page" data-theme="j">
+		<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>বৈচিত্র্যময় খাগড়াছড়ি</p>
+    </header>
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+		<p>পর্যটন মোটেল খাগড়াছড়ি</p>
+				</div><br>
+				<div class="ui-body ui-body-a">
+				<div class="ui-bar ui-bar-a">
+				<h3>অবস্থান</h3>
+				</div>
+				<p class="texto" style=text-align:justify;> শহরের প্রবেশমুখে। পাশেই এঁকেবেঁকে বয়ে চলেছে দুরন্ত পাহাড়ি দুহিতা চেঙ্গী।</p>
+				<p style=text-align:center;> <img style="max-width: 100%;" src="../img/motel.jpg"/><br>পর্যটন মোটেল খাগড়াছড়ি</p>
+				<div class="ui-bar ui-bar-a">
+				<h3>বর্ণনা</h3>
+				</div>
+				<p class="texto" style=text-align:justify;> নির্মাণ শৈলীর অপূর্ব নিদর্শন খাগড়াছড়ির পর্যটন মোটেল। কোন এক পূর্ণিমা রাতে চাঁদের নরম আলোয় নিজেকে বিলিয়ে দিতে চাইলে খাগড়াছড়ি পর্যটন মোটেলের বিকল্প নেই। ৬.৫০ একর জমির উপরে নির্মিত এ মোটেল মোট কক্ষ সংখ্যা ২৫টি। তন্মধ্যে ১৬টি নন-এসি কক্ষ, ০৮টি এসি কক্ষ এবং ০১টি ভিআইপি স্যুট। <br><br>
+				১০০জন ধারণ ক্ষমতা সম্পন্ন সম্মেলন কক্ষ ছাড়াও ৫০ আসন বিশিষ্ট আধুনিক রেষ্টুরেন্ট সকল প্রকার খাবারের চাহিদা মেটাতে সক্ষম। এছাড়া মোটেলের প্রবেশ মুখে লেক, ফুলের বাগান, চেঙ্গী নদী এবং সবুজ বনানী মনোমুগ্ধকর পরিবেশ সৃষ্টি করেছে।</p>
+				
+		</div></div></div>
+		
+		
+		<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>ব্যাংকসমূহ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+		
+		<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="ens-aji-a" data-role="page" data-theme="j">
+		<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>বৈচিত্র্যময় খাগড়াছড়ি</p>
+    </header>
+		
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+		<p>ব্যাংকসমূহ</p>
+				</div><br>
+				
+				<table class="table table-bordered" style="font-size: 12px;">
+				<tr>
+				  <td>ব্যাংক</td>
+				  <td>প্রধান</td>
+				 <td> মোবাইল</td>
+				</tr> 
+<tr><td>সোনালী ব্যাংক লিঃ	</td><td>ব্যবস্থাপক		</td> <td>	০১৭৩০৩১৯৭৯৫</td></tr>
+<tr><td>জনতা ব্যাংক লিঃ	</td><td>ব্যবস্থাপক		</td> <td>০১৫৫৩৭০৪০৫৯	</td></tr>
+<tr><td>পুবালী ব্যাংক লিঃ	</td><td>ব্যবস্থাপক		</td> <td>	০১৯১৭৭০৪৭৯৬</td></tr>
+<tr><td>অগ্রণী ব্যাংক লিঃ	</td><td>ব্যবস্থাপক		</td> <td>	০১৮১১৯২০৭৭৪	</td></tr>
+<tr><td>বাংলাদেশ কৃষি ব্যাংক,দিঘীনালা শাখা	</td><td>ব্যবস্থাপক		</td> <td>	০১৭১৮০৩৩০৪০</td></tr>
+<tr><td>বাংলাদেশ কৃষি ব্যাংক,রামগড় শাখা		</td><td>ব্যবস্থাপক		</td> <td>	০১৫৫৩১৪৫৩৭৮</td></tr>
+<tr><td>বাংলাদেশ কৃষি ব্যাংক	</td><td>ব্যবস্থাপক		</td> <td>০১৮১৭০৮০১৪৪	</td></tr>
+<tr><td>ট্রাস্ট ব্যাংক লিঃ	</td><td>ব্যবস্থাপক		</td> <td>০৩৭১-৬১৩৭০	</td></tr>
+<tr><td>ইসলামী ব্যাংক বাংলাদেশ লিঃ	</td><td>ব্যবস্থাপক		</td> <td>	০১৭৩০৩৩৩৬২১</td></tr>
+<tr><td>আনসার ভিডিপি উঃ ব্যাংক	</td><td>ব্যবস্থাপক		</td> <td>	০১৮১৫৬৩১৪৩৫</td></tr>
+<tr><td>কর্মসংস্থান ব্যাংক	</td><td>ব্যবস্থাপক		</td> <td>	০১৭১২০৮৩৮৭৭</td></tr>
+<tr><td>ব্রাক ব্যাংক		</td><td>ব্যবস্থাপক		</td> <td>	০১৭১৩৪২৪৯৭২</td></tr>
+</table>			
+		</div></div><!-- /content -->
+		
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section>
+</body>
+</html>

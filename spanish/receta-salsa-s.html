@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>দর্শনীয় স্থান</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="../spanish/css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="page" data-role="page" data-theme="j">
+		<header data-role="header" data-position="fixed">
+        <h1>দর্শনীয় স্থান</h1>
+    </header>
+		
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="সার্চ করুন">
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/alotila.html" data-transition="flip">আলুটিলা পর্যটন কেন্দ্র</a>
+					<p></p>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/rohossomoysorongo.html" data-transition="flip">আলুটিলার সুড়ঙ্গ বা রহস্যময় সুড়ঙ্গ</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/dhatochoitobihar.html" data-transition="flip">আলুটিলার ধাতুচৈত্য বৌদ্ধ বিহার</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/dakbanglo.html" data-transition="flip">সড়ক ও জনপথ বিভাগের ডাক বাংলো</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/richang.html" data-transition="flip">আলুটিলার ঝর্ণা বা রিছাং ঝর্ণা</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/motel.html" data-transition="flip">পর্যটন মোটেল </a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/newjiland.html" data-transition="flip">নিউজিল্যান্ড</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/paharigovesona.html" data-transition="flip">পাহাড়ি কৃষি গবেষণা কেন্দ্র</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/tandachora.html" data-transition="flip">ঠাণ্ডাছড়া</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/bodhomondir.html" data-transition="flip">য়ংঢ বৌদ্ধ মন্দির</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/debotarpokor.html" data-transition="flip">দেবতার পুকুর (দেবতার লেক)</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/hatimatha.html" data-transition="flip">হাতিমাথা আকৃতি পাহাড়</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/vogobantila.html" data-transition="flip">ভগবান টিলা</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/duitilatintila.html" data-transition="flip">দুই টিলা ও তিন টিলা</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/botgas.html" data-transition="flip">শতায়ূবর্ষী বটগাছ</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/shantipurnooronnokuti.html" data-transition="flip">শান্তিপুর অরণ্য কুটির</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/dudokchora.html" data-transition="flip">দুদুকছড়া, পানছড়ি</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/ramgor.html" data-transition="flip">রামগড় পর্যটন লেক</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/uddan.html" data-transition="flip">উদ্যান</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/jhulontobrese.html" data-transition="flip">ঝুলন্ত ব্রীজ </a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/picnicspot.html" data-transition="flip">পিকনিক স্পট</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/mohokoma.html" data-transition="flip">মহকুমা প্রশাসক বাংলো</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/simanto.html" data-transition="flip">বাংলাদেশ ভারত সীমান্ত</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/bdr.html" data-transition="flip">বিডিআর স্মৃতিসৌধ</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/kolsirmore.html" data-transition="flip">কলসির মোড়</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/tusarbaburbagan.html" data-transition="flip">তুষারবাবুর বাগান</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/boyalkhalibrej.html" data-transition="flip">বোয়ালখালীর ঝুলন্ত ব্রীজ</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/dighinalardighi.html" data-transition="flip">দীঘিনালার ঐতিহাসিক দীঘি</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/dhumtighat.html" data-transition="flip">ধুমনীঘাট তীর্থকেন্দ্র</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/stacuofaftab.html" data-transition="flip">স্ট্যাচু অব আফতাবুল কাদের</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/manikchorirajbari.html" data-transition="flip">মানিকছড়ি রাজবাড়ী</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/rajbaribihar.html" data-transition="flip">রাজ জেতবন বৌদ্ধ বিহার</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/singhason.html" data-transition="flip">বীর মুক্তিযোদ্ধা মানরাজা মপ্র“ সেইনের সিংহাসন</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/rajokiokhat.html" data-transition="flip">মানরাজা মংপ্র“ সেইনের রাজকীয় খাট</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/hatirdat.html" data-transition="flip">রাজবাড়ির যুগল হাতির দাঁত</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/mohamonibodho.html" data-transition="flip">মহামুনি বৌদ্ধ বিহার</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/cornelbagan.html" data-transition="flip">মানিকছড়ি কর্ণেল বাগান</a>
+				</li>
+				<li>
+					<a rel="external" data-ajax="false"  href="../porjoton/bisosantisanad.html" data-transition="flip">বিশ্ব শান্তি সেবা সদন আন্তর্জাতিক ভাবনা কেন্দ্র</a>
+				</li>
+				
+			</ul>
+		</article><!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+</body>
+</html>

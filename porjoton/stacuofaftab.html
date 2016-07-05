@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>স্ট্যাচু অব আফতাবুল কাদের</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="ens-aji-a" data-role="page" data-theme="j">
+		<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>বৈচিত্র্যময় খাগড়াছড়ি</p>
+    </header>
+		
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+		<p>স্ট্যাচু অব আফতাবুল কাদের</p>
+				</div><br>
+				<div class="ui-body ui-body-a">
+
+		
+				<p class="texto" style=text-align:justify;>১৯৭১ সালের মহান মুক্তিযুদ্ধে সারা বাংলাদেশের ন্যায় পার্বত্য চট্টগ্রামেও পাক হানাদার বাহিনীর অনুপ্রবেশ ঘটে। আর ঠিক সেই মূহুর্তে ক্যাপ্টেন আফতাবুল কাদের স্থানীয়দের সংগঠিত করে পাক বাহিনীর বিরুদ্ধে ঝাঁপিয়ে পড়েন এবং সম্মুখ যুদ্ধে শাহাদাৎ বরণ করেন এই বীর মুক্তিযোদ্ধা। <br><br>
+				আর তাই তারই সম্মানে যে স্থানে তিনি গুলিবিদ্ধ  হয়েছিলেন সে স্থানে তার প্রতিকৃতি নির্মিত হয়েছে। খাগড়াছড়ি-রাঙ্গামাটি মহাসড়কে মহালছড়ি উপজেলায় প্রবেশমুখে মহালছড়ি কলেজের পাশে এই বীর মুক্তিযোদ্ধার ভাস্কর্যের অবস্থান।</p>
+				
+		</div></div></div>	<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section>
+</body>
+</html>
